@@ -1,0 +1,9 @@
+<?php
+require('header.php');
+require('edit_user_modal.php');
+require('navigation.php');
+require('left_side_bar.php');
+require('signin.php');
+require('signup.php');
+require('footer.php');
+ ?>
