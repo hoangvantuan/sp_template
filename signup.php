@@ -1,12 +1,23 @@
+<!-- BEIGIN: INCLUDE header -->
+<?php
+require_once ('header.php') ?>
+<?php
+require_once ('navigation.php') ?>
+<!-- END: include Header -->
+
+<!-- BEGIN: CONTENT -->
 <div class="container">
     <div class="row">
-        <div class="panel panel-info">
-            <div class="panel-heading">
-                <!-- Title -->
-                <h3 class="panel-title">Sign up</h3>
-            </div>
-            <div class="panel-body">
-                <div class="col-md-4 col-md-offset-3">
+        <div class="col-md-4">
+            <?php require_once('left_side_bar.php'); ?>
+        </div>
+        <div class="col-md-8">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <!-- Title -->
+                    <h3 class="panel-title">Sign up</h3>
+                </div>
+                <div class="panel-body">
                     <form role="form" method="post" action="#">
                         <div class="form-group">
                             <label for="username" class="control-label">Account:</label>
@@ -24,10 +35,16 @@
                             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="" name="email" required="required"/>
                         </div>
                         <!-- Input: Submit -->
-                        <button type="submit" class="btn btn-default" name="submit">Sign up</button>
+                        <button type="submit" class="btn btn-default pull-right" name="submit">Sign up</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<!-- END: CONTENT -->
+
+<!-- BEGIN: FOOTER -->
+<?php
+require_once ('footer.php') ?>
+<!-- END: FOOTER

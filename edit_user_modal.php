@@ -2,7 +2,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
     <!-- Form submit for update -->
-      <form role="form" action="#" method="POST">
+      <form role="form" action="#" method="POST" enctype="multipart/form-data">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
           <!-- Title -->
@@ -11,8 +11,12 @@
         <!-- Content update here -->
         <div class="modal-body">
             <div class="form-group">
-                  <label for="fullname">Full Name</label>
-                  <input type="text" class="form-control" id="fullname" value="fullname" name="fullname" required="required"/>
+                  <label for="avatar">Avatar</label>
+                  <input type="file" name="uploadAvatar" value="uuploadAvatar" placeholder="">
+                  </div>
+                  <div class="form-group">
+                  <label for="birthday">Birthday</label>
+                  <input type="text" class="form-control" id="birthday" value="Value here" name="birthday" required="required"/>
                   </div>
         </div>
         <div class="modal-footer">
