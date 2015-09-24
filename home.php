@@ -20,7 +20,6 @@
                         <img src="#" alt="product" class="img-responsive">
                         <div class="caption">
                             <p>this is description</p>
-                            <p><a href="#" class="btn btn-default" role="button">Swap</a></p>
                         </div>
                     </div>
                 </div>
